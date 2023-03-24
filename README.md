@@ -1,32 +1,32 @@
 # Srun
 
-[![Build Status](https://travis-ci.org/vouv/srun.svg?branch=master)](https://travis-ci.org/vouv/srun) [![Go Report Card](https://goreportcard.com/badge/github.com/vouv/srun)](https://goreportcard.com/report/github.com/vouv/srun) ![License](https://img.shields.io/packagist/l/doctrine/orm.svg) [![GoDoc](https://godoc.org/github.com/vouv/srun?status.svg)](https://godoc.org/github.com/vouv/srun/core)
+[![Build Status](https://travis-ci.org/deardeer7/srun.svg?branch=master)](https://travis-ci.org/deardeer7/srun) [![Go Report Card](https://goreportcard.com/badge/github.com/deardeer7/srun)](https://goreportcard.com/report/github.com/deardeer7/srun) ![License](https://img.shields.io/packagist/l/doctrine/orm.svg) [![GoDoc](https://godoc.org/github.com/deardeer7/srun?status.svg)](https://godoc.org/github.com/deardeer7/srun/core)
 
-> An efficient client for BIT campus network
+> An efficient client for srun campus network
 
-北京理工大学校园网命令行登录工具
+深澜（srun）校园网命令行登录工具
 - 支持linux、maxOS、windows
 - 基于Go语言实现
 
 Related Projects
 
-- macOS客户端: [SrunBar](https://github.com/vouv/SrunBar)
+- macOS客户端: [SrunBar](https://github.com/deardeer7/SrunBar)
 
 ## Install
 
 1. Homebrew(macOS only)
 
 ```bash
-$ brew tap vouv/tap
+$ brew tap deardeer7/tap
 $ brew install srun
 $ srun config
 ```
 
-2. Curl(for Linux amd64) [Release](https://github.com/vouv/srun/releases/latest)
+2. Curl(for Linux amd64) [Release](https://github.com/deardeer7/srun/releases/latest)
 
 ```bash
 # linux
-$ curl -L -o srun https://github.com/vouv/srun/releases/latest/download/srun-linux
+$ curl -L -o srun https://github.com/deardeer7/srun/releases/latest/download/srun-linux
 $ chmod +x ./srun
 $ ./srun config
 ```
@@ -36,7 +36,7 @@ $ ./srun config
 如果已经[安装并配置GO环境](https://golang.google.cn/doc/install), 执行如下命令即可
 
 ```bash
-$ go get -u -v github.com/vouv/srun/cmd/srun
+$ go get -u -v github.com/deardeer7/srun/cmd/srun
 $ $GOPATH/bin/srun config
 ```
 
@@ -113,7 +113,7 @@ $ srun info
 先克隆项目
 
 ```
-$ git clone https://github.com/vouv/srun && cd srun
+$ git clone https://github.com/deardeer7/srun && cd srun
 ```
 
 macOS下编译
@@ -148,6 +148,7 @@ $ make linux
 
 ### Thanks to
 
+- [srun](https://github.com/vouv/srun)
 - [logrus](https://github.com/sirupsen/logrus)
 - [cobra](https://github.com/spf13/cobra)
 
