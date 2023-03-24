@@ -8,6 +8,7 @@ name: Deploy
 
 jobs:
   deploy:
+    permissions: write-all
     name: Deploy
     runs-on: ubuntu-20.04
     steps:
